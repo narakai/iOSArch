@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--My Share View Controller-->
+        <scene sceneID="TNL-vh-PTl">
+            <objects>
+                <viewController storyboardIdentifier="MyShareViewController" id="Wq0-el-fZh" customClass="MyShareViewController" customModule="CursApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xni-fT-sb9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yxY-th-F16">
+                                <rect key="frame" x="186" y="74" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dummy Label2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wTc-Zp-2Kw" userLabel="Dummy Label2">
+                                <rect key="frame" x="149.5" y="114.5" width="115" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cJI-J4-1S1" customClass="CRBoxInputView">
+                                <rect key="frame" x="20" y="185.5" width="374" height="50"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="PKk-EY-fux"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="wTc-Zp-2Kw" firstAttribute="top" secondItem="yxY-th-F16" secondAttribute="bottom" constant="20" id="22G-Wf-TeL"/>
+                            <constraint firstItem="yxY-th-F16" firstAttribute="top" secondItem="yDH-qw-uYd" secondAttribute="top" constant="30" id="U0v-LX-JOG"/>
+                            <constraint firstItem="wTc-Zp-2Kw" firstAttribute="centerX" secondItem="Xni-fT-sb9" secondAttribute="centerX" id="ZIu-EJ-XcF"/>
+                            <constraint firstItem="yxY-th-F16" firstAttribute="centerX" secondItem="Xni-fT-sb9" secondAttribute="centerX" id="aFA-Zw-GqU"/>
+                            <constraint firstItem="cJI-J4-1S1" firstAttribute="top" secondItem="wTc-Zp-2Kw" secondAttribute="bottom" constant="50" id="qRa-Hk-DCR"/>
+                            <constraint firstItem="yDH-qw-uYd" firstAttribute="trailing" secondItem="cJI-J4-1S1" secondAttribute="trailing" constant="20" id="se1-dh-1fU"/>
+                            <constraint firstItem="cJI-J4-1S1" firstAttribute="leading" secondItem="yDH-qw-uYd" secondAttribute="leading" constant="20" id="vLf-Gh-88s"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yDH-qw-uYd"/>
+                    </view>
+                    <connections>
+                        <outlet property="codeInputView" destination="cJI-J4-1S1" id="teH-Re-pDM"/>
+                        <outlet property="dummyLabel" destination="yxY-th-F16" id="G9O-5F-JEi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WY2-jr-V0w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" id="xKD-k9-XIO">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <viewLayoutGuide key="safeArea" id="vLV-oE-8Ot"/>
+                </view>
+            </objects>
+            <point key="canvasLocation" x="128.98550724637681" y="-269.19642857142856"/>
+        </scene>
+    </scenes>
+</document>

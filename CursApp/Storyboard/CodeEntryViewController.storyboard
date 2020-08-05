@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Code Entry View Controller-->
+        <scene sceneID="TNL-vh-PTl">
+            <objects>
+                <viewController storyboardIdentifier="CodeEntryViewController" id="Wq0-el-fZh" customClass="CodeEntryViewController" customModule="CursApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xni-fT-sb9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请输入短信验证码" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yxY-th-F16">
+                                <rect key="frame" x="20" y="74" width="171" height="26"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cJI-J4-1S1" customClass="CRBoxInputView">
+                                <rect key="frame" x="20" y="177" width="335" height="50"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="k0Q-kw-hBp"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TXU-r0-PUe">
+                                <rect key="frame" x="20" y="277" width="335" height="34"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="确定">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Kk-6O-wHS">
+                                <rect key="frame" x="293" y="323" width="62" height="30"/>
+                                <state key="normal" title="重新获取"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已向你的手机发送验证" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wTc-Zp-2Kw" userLabel="Dummy Label2">
+                                <rect key="frame" x="20" y="110" width="143" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4Kk-6O-wHS" firstAttribute="top" secondItem="TXU-r0-PUe" secondAttribute="bottom" constant="12" id="2x9-DY-ner"/>
+                            <constraint firstItem="cJI-J4-1S1" firstAttribute="top" secondItem="wTc-Zp-2Kw" secondAttribute="bottom" constant="50" id="8C2-HM-6YF"/>
+                            <constraint firstItem="wTc-Zp-2Kw" firstAttribute="leading" secondItem="yDH-qw-uYd" secondAttribute="leading" constant="20" id="L8T-he-3xO"/>
+                            <constraint firstItem="yDH-qw-uYd" firstAttribute="trailing" secondItem="cJI-J4-1S1" secondAttribute="trailing" constant="20" id="Oyt-sE-BY4"/>
+                            <constraint firstItem="cJI-J4-1S1" firstAttribute="trailing" secondItem="TXU-r0-PUe" secondAttribute="trailing" id="TO4-OW-yNv"/>
+                            <constraint firstItem="cJI-J4-1S1" firstAttribute="leading" secondItem="TXU-r0-PUe" secondAttribute="leading" id="VPK-8W-xTL"/>
+                            <constraint firstItem="TXU-r0-PUe" firstAttribute="top" secondItem="cJI-J4-1S1" secondAttribute="bottom" constant="50" id="aWT-fs-Mro"/>
+                            <constraint firstItem="cJI-J4-1S1" firstAttribute="leading" secondItem="yDH-qw-uYd" secondAttribute="leading" constant="20" id="g1F-0g-FSn"/>
+                            <constraint firstItem="wTc-Zp-2Kw" firstAttribute="top" secondItem="yxY-th-F16" secondAttribute="bottom" constant="10" id="gvN-rK-SeB"/>
+                            <constraint firstItem="yDH-qw-uYd" firstAttribute="trailing" secondItem="4Kk-6O-wHS" secondAttribute="trailing" constant="20" id="v0g-yG-7Ij"/>
+                            <constraint firstItem="yxY-th-F16" firstAttribute="top" secondItem="yDH-qw-uYd" secondAttribute="top" constant="30" id="v0l-K9-WYu"/>
+                            <constraint firstItem="yxY-th-F16" firstAttribute="leading" secondItem="yDH-qw-uYd" secondAttribute="leading" constant="20" id="zzt-kb-jTt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yDH-qw-uYd"/>
+                    </view>
+                    <connections>
+                        <outlet property="codeInputView" destination="cJI-J4-1S1" id="eVb-4A-yy6"/>
+                        <outlet property="confirmBtn" destination="TXU-r0-PUe" id="VTf-b3-6vM"/>
+                        <outlet property="retryBtn" destination="4Kk-6O-wHS" id="ZEl-kq-dub"/>
+                        <outlet property="tipTX" destination="yxY-th-F16" id="V8L-IX-c2k"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WY2-jr-V0w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" id="xKD-k9-XIO">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <viewLayoutGuide key="safeArea" id="vLV-oE-8Ot"/>
+                </view>
+            </objects>
+            <point key="canvasLocation" x="128.98550724637681" y="-269.19642857142856"/>
+        </scene>
+    </scenes>
+</document>
