@@ -1,6 +1,6 @@
 //
 //  RegisterViewModel.swift
-//  CursApp
+
 //
 //  Created by lailiang on 2020/4/7.
 //  Copyright © 2020 lailiang. All rights reserved.

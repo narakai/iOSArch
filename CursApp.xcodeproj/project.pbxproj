@@ -20,7 +20,6 @@
 		276B5F1F24319D7F00B0127A /* RegisterViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276B5F1E24319D7F00B0127A /* RegisterViewController.storyboard */; };
 		276B5F2124319E8100B0127A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276B5F2024319E8100B0127A /* RegisterViewController.swift */; };
 		276B5F2324319F0600B0127A /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276B5F2224319F0600B0127A /* UIViewController.swift */; };
-		276B5F4C2431D99100B0127A /* MineHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276B5F4B2431D99100B0127A /* MineHeadView.swift */; };
 		277997BF2436E0E7002B9363 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277997BE2436E0E7002B9363 /* AppState.swift */; };
 		277BCB3C243C20DD00CA8F2A /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277BCB3B243C20DD00CA8F2A /* RegisterViewModel.swift */; };
 		277BCB3E243C298E00CA8F2A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277BCB3D243C298E00CA8F2A /* SettingsViewController.swift */; };
@@ -42,11 +41,9 @@
 		2783DBAB2416399B000816AC /* AstaPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2783DBA82416399B000816AC /* AstaPageControl.swift */; };
 		2783DBAF24164181000816AC /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2783DBAE24164180000816AC /* ViewModel.swift */; };
 		2783DBB524165BDA000816AC /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2783DBB424165BDA000816AC /* Request.swift */; };
-		2783DBB72418EB69000816AC /* ArticleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2783DBB62418EB69000816AC /* ArticleCollectionViewCell.swift */; };
 		278A2AE82425B059002C73FE /* ScrollTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278A2AE72425B059002C73FE /* ScrollTabBar.swift */; };
 		2790E1FF241F24690077B3C1 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2790E1FE241F24690077B3C1 /* HUD.swift */; };
 		279F3FC32419D578001430DD /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279F3FC22419D578001430DD /* NetworkLogger.swift */; };
-		279F3FC9241A0071001430DD /* AstaListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279F3FC8241A0071001430DD /* AstaListView.swift */; };
 		279F3FCD241A4D9C001430DD /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279F3FCC241A4D9C001430DD /* String.swift */; };
 		27A7C7332420B7F500BFD4D1 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A7C7322420B7F500BFD4D1 /* UserAPI.swift */; };
 		27A7C7352420BA1A00BFD4D1 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A7C7342420BA1A00BFD4D1 /* Base.swift */; };
@@ -54,7 +51,6 @@
 		27B7D5562435AA4300C38B05 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B7D5552435AA4300C38B05 /* LoginViewModel.swift */; };
 		27B7D5582435BCAF00C38B05 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B7D5572435BCAF00C38B05 /* UserModel.swift */; };
 		27B7D55A2435D47E00C38B05 /* FileUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B7D5592435D47E00C38B05 /* FileUtils.swift */; };
-		27D67F1F241B347D0073A085 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D67F1E241B347D0073A085 /* SearchBar.swift */; };
 		27D67F25241B5BCD0073A085 /* TextCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D67F24241B5BCD0073A085 /* TextCollectionViewCell.swift */; };
 		27D67F2B241B935B0073A085 /* TextCollectionReuseableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D67F2A241B935B0073A085 /* TextCollectionReuseableView.swift */; };
 		27D67F2E241C70800073A085 /* ErrorTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D67F2D241C70800073A085 /* ErrorTracker.swift */; };
@@ -89,7 +85,6 @@
 		276B5F1E24319D7F00B0127A /* RegisterViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RegisterViewController.storyboard; sourceTree = "<group>"; };
 		276B5F2024319E8100B0127A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		276B5F2224319F0600B0127A /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
-		276B5F4B2431D99100B0127A /* MineHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineHeadView.swift; sourceTree = "<group>"; };
 		277997BE2436E0E7002B9363 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		277BCB3B243C20DD00CA8F2A /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 		277BCB3D243C298E00CA8F2A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -113,11 +108,9 @@
 		2783DBA82416399B000816AC /* AstaPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstaPageControl.swift; sourceTree = "<group>"; };
 		2783DBAE24164180000816AC /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		2783DBB424165BDA000816AC /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
-		2783DBB62418EB69000816AC /* ArticleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCollectionViewCell.swift; sourceTree = "<group>"; };
 		278A2AE72425B059002C73FE /* ScrollTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTabBar.swift; sourceTree = "<group>"; };
 		2790E1FE241F24690077B3C1 /* HUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
 		279F3FC22419D578001430DD /* NetworkLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
-		279F3FC8241A0071001430DD /* AstaListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstaListView.swift; sourceTree = "<group>"; };
 		279F3FCC241A4D9C001430DD /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		27A7C7322420B7F500BFD4D1 /* UserAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
 		27A7C7342420BA1A00BFD4D1 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
@@ -125,7 +118,6 @@
 		27B7D5552435AA4300C38B05 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		27B7D5572435BCAF00C38B05 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		27B7D5592435D47E00C38B05 /* FileUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileUtils.swift; sourceTree = "<group>"; };
-		27D67F1E241B347D0073A085 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		27D67F24241B5BCD0073A085 /* TextCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCollectionViewCell.swift; sourceTree = "<group>"; };
 		27D67F2A241B935B0073A085 /* TextCollectionReuseableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCollectionReuseableView.swift; sourceTree = "<group>"; };
 		27D67F2D241C70800073A085 /* ErrorTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorTracker.swift; sourceTree = "<group>"; };
@@ -249,13 +241,9 @@
 			isa = PBXGroup;
 			children = (
 				2783DBA52416399B000816AC /* AstaInfiniteScrollView */,
-				279F3FC8241A0071001430DD /* AstaListView.swift */,
-				27D67F1E241B347D0073A085 /* SearchBar.swift */,
 				278A2AE72425B059002C73FE /* ScrollTabBar.swift */,
-				2783DBB62418EB69000816AC /* ArticleCollectionViewCell.swift */,
 				27D67F24241B5BCD0073A085 /* TextCollectionViewCell.swift */,
 				27D67F2A241B935B0073A085 /* TextCollectionReuseableView.swift */,
-				276B5F4B2431D99100B0127A /* MineHeadView.swift */,
 				27FA569B243D9FCF004891A9 /* SwitchTableViewCell.swift */,
 				27FA569D243DA0BE004891A9 /* SingleBtnTableViewCell.swift */,
 				58B83EBFEA3F2EBA7FFE1694 /* BasicInfoTableViewCell.swift */,
@@ -484,11 +472,9 @@
 				277997BF2436E0E7002B9363 /* AppState.swift in Sources */,
 				2790E1FF241F24690077B3C1 /* HUD.swift in Sources */,
 				279F3FCD241A4D9C001430DD /* String.swift in Sources */,
-				2783DBB72418EB69000816AC /* ArticleCollectionViewCell.swift in Sources */,
 				2783DBA92416399B000816AC /* AstaInfiniteScrollView.swift in Sources */,
 				2783DBAA2416399B000816AC /* AstaSimpleInfiniteView.swift in Sources */,
 				27FA569C243D9FCF004891A9 /* SwitchTableViewCell.swift in Sources */,
-				276B5F4C2431D99100B0127A /* MineHeadView.swift in Sources */,
 				1842529924C16E6700698B38 /* MyShareViewController.swift in Sources */,
 				18C3152D24C6E73C00C31AA2 /* ChangePasswordViewController.swift in Sources */,
 				27B7D5582435BCAF00C38B05 /* UserModel.swift in Sources */,
@@ -508,8 +494,6 @@
 				27A7C7352420BA1A00BFD4D1 /* Base.swift in Sources */,
 				27FA569E243DA0BE004891A9 /* SingleBtnTableViewCell.swift in Sources */,
 				2783DB8E2415E57A000816AC /* MineViewController.swift in Sources */,
-				279F3FC9241A0071001430DD /* AstaListView.swift in Sources */,
-				27D67F1F241B347D0073A085 /* SearchBar.swift in Sources */,
 				278A2AE82425B059002C73FE /* ScrollTabBar.swift in Sources */,
 				27A7C7332420B7F500BFD4D1 /* UserAPI.swift in Sources */,
 				2783DB6A2415DBFC000816AC /* AppDelegate.swift in Sources */,

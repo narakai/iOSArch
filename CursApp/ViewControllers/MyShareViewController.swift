@@ -1,6 +1,6 @@
 //
 //  MyShareViewController.swift
-//  CursApp
+
 //
 //  Created by lailiang on 2020/4/8.
 //  Copyright © 2020 lailiang. All rights reserved.

@@ -1,6 +1,6 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-#platform :ios, '9.0'
+#platform :ios, '8.0'
 
 target 'CursApp' do
   use_frameworks!
@@ -13,14 +13,14 @@ target 'CursApp' do
   pod 'RxDataSources', '~> 4.0.1'
   pod 'RxTheme', '~> 4.0.0'
   pod 'NSObject+Rx', '~> 5.0.2'
-  pod 'FlexKit', '~> 1.0.1'
+  # pod 'FlexKit', '~> 1.0.1'
   pod 'HandyJSON', '~> 5.0.1'
-  pod 'WSCollectionViewFlowLayout', '~> 0.0.4'
+  # pod 'WSCollectionViewFlowLayout', '~> 0.0.4'
   pod 'MJRefresh', '~> 3.1.12'
   pod 'UITableView+FDTemplateLayoutCell', '~> 1.6'
   pod 'MBProgressHUD+Add'
   pod 'IQKeyboardManagerSwift'
   pod 'CRBoxInputView', '1.2.1'
-  pod 'Toaster'
+  pod 'Toaster', :git => 'https://github.com/devxoul/Toaster.git', :branch => 'master'
 
 end

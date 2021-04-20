@@ -1,6 +1,6 @@
 //
 //  HomeViewController.swift
-//  CursApp
+
 //
 //  Created by lailiang on 2020/7/15.
 //  Copyright © 2020 lailiang. All rights reserved.
@@ -41,15 +41,6 @@ class MineViewController: BaseViewController {
         return tableView
     }()
 
-    var headView: MineHeadView = {
-        let frame = CGRect(
-                origin: .zero,
-                size: CGSize(width: UIScreen.main.bounds.width, height: 200)
-        )
-        let view = MineHeadView(frame: frame)
-        return view
-    }()
-
     lazy var dataSource = getDataSource()
 
     private var currentTheme: Theme?
@@ -62,16 +53,6 @@ class MineViewController: BaseViewController {
             make.top.bottom.centerX.equalTo(self.view)
             make.width.equalTo(self.view).offset(-24)
         }
-        tableView.tableHeaderView = headView
-
-        AppState.share.loginUser.bind(to: headView.bindUser).disposed(by: disposeBag)
-        headView.userNameBtn.rx.tap.subscribe(onNext: { [weak self] in
-                    guard let `self` = self, !AppState.share.loginUser.value.isLogin else {
-                        return
-                    }
-                    LoginViewController.show(from: self)
-                })
-                .disposed(by: disposeBag)
 
         Observable.just(fetchData())
                 .asDriver(onErrorJustReturn: [])

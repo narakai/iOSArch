@@ -1,6 +1,6 @@
 //
 //  AppState.swift
-//  CursApp
+
 //
 //  Created by lailiang on 2020/4/3.
 //  Copyright © 2020 lailiang. All rights reserved.

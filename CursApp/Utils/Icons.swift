@@ -1,6 +1,6 @@
 //
 //  Icons.swift
-//  CursApp
+
 //
 //  Created by lailiang on 2020/7/15.
 //  Copyright © 2020 lailiang. All rights reserved.
