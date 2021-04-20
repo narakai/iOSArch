@@ -109,19 +109,19 @@ extension BasicInfoViewController {
         let section1Items = [
             ListItem(
                     title: "用户ID",
-                    desc: "xxx@acca.com",
+                    desc: "xxx@aa.com",
                     viewController: MyEditViewController()
             ),
             ListItem(
                     title: "用户姓名",
-                    desc: "凯亚",
+                    desc: "呵呵",
                     viewController: MyEditViewController()
             )
         ]
         let section2Items = [
             ListItem(
                     title: "Email",
-                    desc: "xxx@acca.com",
+                    desc: "xxx@aa.com",
                     viewController: MyEditViewController()
             ),
             ListItem(
@@ -153,7 +153,7 @@ extension BasicInfoViewController {
         let section3Items = [
             ListItem(
                     title: "组织结构",
-                    desc: "ACCA",
+                    desc: "AA",
                     viewController: MyEditViewController()
             ),
             ListItem(
@@ -168,7 +168,7 @@ extension BasicInfoViewController {
             ),
             ListItem(
                     title: "创建日期",
-                    desc: "xxx@acca.com",
+                    desc: "xxx@aa.com",
                     viewController: MyEditViewController()
             ),
             ListItem(
@@ -178,7 +178,7 @@ extension BasicInfoViewController {
             ),
             ListItem(
                     title: "描述",
-                    desc: "成都民航西南凯亚有限责任公司是由中国民航信息网络股份有限公司、中国国际航空股份有限公司、四川省机场集团有限公司、四川航空集团公司等四家股东单位合资组建的股份制公司，于一九九九年十二月八日正式成立，并相继成立了贵阳办事处和拉萨办事处。",
+                    desc: "浏览地图、搜索地点、查询公交驾车线路、查看实时路况,您的出行指南、生活助手。提供地铁线路图浏览,乘车方案查询,以及准确的票价和时间信息",
                     viewController: MyEditViewController()
             )
         ]

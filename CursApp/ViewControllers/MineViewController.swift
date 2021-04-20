@@ -60,14 +60,18 @@ class MineViewController: BaseViewController {
                 .disposed(by: disposeBag)
 
         tableView.rx.modelSelected(ListItem.self).subscribe(onNext: { [weak self] item in
-                    if !AppState.share.loginUser.value.isLogin && item.title != "设置" {
-                        Toast(text: "请先登录", duration: Delay.short).show()
-                    } else {
-                        let toVC = item.vcProvider()
-                        toVC.hidesBottomBarWhenPushed = true
-                        toVC.title = item.title
-                        self?.navigationController?.pushViewController(toVC, animated: true)
-                    }
+//                    if !AppState.share.loginUser.value.isLogin && item.title != "设置" {
+//                        Toast(text: "请先登录", duration: Delay.short).show()
+//                    } else {
+//                        let toVC = item.vcProvider()
+//                        toVC.hidesBottomBarWhenPushed = true
+//                        toVC.title = item.title
+//                        self?.navigationController?.pushViewController(toVC, animated: true)
+//                    }
+                    let toVC = item.vcProvider()
+                    toVC.hidesBottomBarWhenPushed = true
+                    toVC.title = item.title
+                    self?.navigationController?.pushViewController(toVC, animated: true)
                 })
                 .disposed(by: disposeBag)
 

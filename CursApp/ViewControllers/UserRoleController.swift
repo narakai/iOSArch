@@ -86,7 +86,7 @@ extension UserRoleController {
     func fetchData() -> [SectionModel<Void, ListItem>] {
         let section1Items = [
             ListItem(
-                    title: "易结二期机场业务部管理员",
+                    title: "业务部管理员",
                     viewController: MyEditViewController()
             ),
             ListItem(
@@ -94,7 +94,7 @@ extension UserRoleController {
                     viewController: MyEditViewController()
             ),
             ListItem(
-                    title: "ACCA管理员",
+                    title: "管理员",
                     viewController: MyEditViewController()
             ),
             ListItem(
@@ -102,7 +102,7 @@ extension UserRoleController {
                     viewController: MyEditViewController()
             ),
             ListItem(
-                    title: "易结管理员",
+                    title: "管理员",
                     viewController: MyEditViewController()
             )
         ]
